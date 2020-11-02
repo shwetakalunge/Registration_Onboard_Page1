@@ -1,0 +1,133 @@
+/*BIG TABLET TO 1200PX (WIDTH SMALLER THAN THE 1140 PX ROWS) */
+@media only screen and (max-width:1200px) {
+    .long_copy {
+        font-size: 15px;
+    }
+
+    .short_copy {
+        padding: 10px 10px 10px 10px;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .buttons_section {
+        width: 80%;
+        margin: auto;
+    }
+
+    .blockquote {
+        top: 35%
+    }
+
+}
+
+/*SMALL TABLETS TO BIG TABLETS-IPAD IN LANDSCAPE PHONES(768 TO 1023PX)*/
+@media only screen and (max-width:1023px) {
+    .long_copy {
+        font-size: 13px;
+    }
+
+    .short_copy {
+        padding: 10px 10px 10px 10px;
+        font-size: 11px;
+        margin-top: 20px;
+
+    }
+
+    .buttons_section {
+        width: 70%;
+        margin: auto;
+    }
+
+    .blockquote {
+        top: 35%
+    }
+}
+
+
+/*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
+@media only screen and (max-width:767px) {
+    .blockquote {
+        top: 25%
+    }
+
+    .buttons_section {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .short_copy {
+        padding: 10px 10px 10px 10px;
+        font-size: 11px;
+        margin-top: 50px;
+
+    }
+
+    .long_copy {
+        width: 80%;
+    }
+
+    .p_subheader {
+        width: 80%;
+        font-size: 10px;
+    }
+
+    text {
+        font-size: 5px;
+        word-spacing: 0px;
+    }
+
+    .btn {
+        padding: 0px 0px 0px 0px
+    }
+
+    h4 {
+        text-align: center
+    }
+
+    p {
+        font-size: 10px;
+
+    }
+
+    text {
+        font-size: 10px;
+    }
+}
+
+
+/*SMALL-PHONES FROM LESS or EQUAL TO 480 PIXEL*/
+@media only screen and (max-width:320px) {
+    .long_copy {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .short_copy {
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+    .blockquote {
+        top: 30%
+    }
+
+    h2 {
+        width: 70%;
+    }
+
+    .p_subheader {
+        width: 100%;
+    }
+
+    .buttons_section {
+        padding: 1px;
+    }
+    h5{
+         font-size: 12px;
+    }
+    .image1{
+         left: 70%;
+    }
+}
